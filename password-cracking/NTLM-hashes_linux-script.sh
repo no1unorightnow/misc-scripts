@@ -30,7 +30,7 @@ cat accounts.txt | cut -d: -f2 > hashes.txt
 sudo /opt/hashcat/hashcat64.bin -m 1000 -O -w 3 -r /opt/hashcat/rules/leetspeak.rule ./hashes.txt ~/Downloads/wordlist/crackstation-human-only.txt
 
 #6. dump from potfile
-sudo cp /opt/hashcat/hashcat.potfile cracked.txt && sudo chown myuser:myuser cracked.txt
+sudo cp /opt/hashcat/hashcat.potfile cracked.txt && sudo chown myusername:myusername cracked.txt
 
 #7. combine things
 # compare:
