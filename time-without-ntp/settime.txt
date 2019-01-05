@@ -1,4 +1,4 @@
 date -s "`curl -s -I https://www.google.com/ | grep date | cut -d, -f2`"
-#date -s = silent
+#date -s = set the time
 #curl -s = silent
 #	-I = headers only
