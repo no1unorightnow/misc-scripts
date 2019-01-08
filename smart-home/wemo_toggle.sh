@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # lives at: /opt/scripts/wemo/wemo_toggle.sh
+# uses /opt/scripts/wemo/wemo_control.sh
+# which is from: http://moderntoil.com/?p=839
+
 
 ADDRESS=$1
 
