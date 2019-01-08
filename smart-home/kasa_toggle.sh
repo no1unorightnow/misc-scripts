@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# lives at: /opt/scripts/kasa/kasa_toggle.sh
+# uses /opt/scripts/kasa/kasa_control.sh
+# which is hs100.sh from: https://github.com/branning/hs100/blob/master/hs100.sh
+
 ADDRESS=$1
 
 if [ "$1" = "" ]
